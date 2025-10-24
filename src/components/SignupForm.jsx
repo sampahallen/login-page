@@ -70,7 +70,7 @@ const Signup = () => {
           <hr className="border-t-2 min-w-[80px] sm:min-w-[150px]  border-gray-300" />
           <div>
             <p className="mx-3 hidden md:block text-gray-600">Or</p>
-            <p className="mx-3 md:hidden text-[14px] text-gray-600">
+            <p className="mx-3 md:hidden text-[12px] text-gray-600">
               Or sign up with
             </p>
           </div>
