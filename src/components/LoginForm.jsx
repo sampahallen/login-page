@@ -112,7 +112,7 @@ const Login = () => {
         </Link>
       </p>
 
-      <p className="text-gray-400 mt-9 text-center max-sm:text-[12px]">
+      <p className="text-gray-400 mt-9 mb-5 text-center max-sm:text-[12px]">
         ©2023 ALL RIGHT RESERVED
       </p>
     </div>
