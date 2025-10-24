@@ -65,11 +65,16 @@ const Signup = () => {
         </button>
       </form>
 
-      <div className="flex justify-center w-full mb-8">
+<div className="flex justify-center w-full mb-8">
         <div className="flex flex-row items-center justify-center mt-9 text-center">
-          <hr className="border-t-2 min-w-[150px]  border-gray-300" />
-          <p className="mx-3 text-gray-600">Or</p>
-          <hr className="border-t-2 min-w-[150px] border-gray-300" />
+          <hr className="border-t-2 min-w-[80px] sm:min-w-[150px]  border-gray-300" />
+          <div>
+            <p className="mx-3 hidden md:block text-gray-600">Or</p>
+            <p className="mx-3 md:hidden text-[14px] text-gray-600">
+              Or sign up with
+            </p>
+          </div>
+          <hr className="border-t-2 min-w-[80px] sm:min-w-[150px] border-gray-300" />
         </div>
       </div>
 
