@@ -33,7 +33,7 @@ const Signup = () => {
           <input
             type="email"
             placeholder="Example@email.com"
-            className="border-2 focus:outline-none sm:w-[380px] sm:h-[45px] w-full rounded-xl p-2 border-gray-300 bg-gray-200"
+            className="border-2 focus:outline-none sm:w-[380px] sm:h-[45px] w-full rounded-xl p-2 border-gray-300 bg-sky-50"
           />
         </div>
 
@@ -45,7 +45,7 @@ const Signup = () => {
             type="password"
             placeholder="At least 8 characters"
             minLength={"8"}
-            className="border-2 focus:outline-none sm:w-[380px] sm:h-[45px] border-gray-300 rounded-xl p-2 bg-gray-200 w-full"
+            className="border-2 focus:outline-none sm:w-[380px] sm:h-[45px] border-gray-300 rounded-xl p-2 bg-sky-50 w-full"
             required
           />
         </div>
@@ -74,12 +74,12 @@ const Signup = () => {
       </div>
 
       <div className="flex md:flex-col flex-row justify-center items-center gap-6">
-        <div className="flex flex-row items-center justify-center border-2 w-full sm:w-[380px] h-[45px] rounded-xl bg-gray-200 cursor-pointer">
+        <div className="flex flex-row items-center justify-center border-2 w-full sm:w-[380px] h-[45px] rounded-xl bg-sky-50 cursor-pointer">
           <img src={google} alt="" className="w-[30px] h-[30px] mr-1" />
           <p className="md:flex hidden text-gray-600">Sign up with Google</p>
           <p className="md:hidden text-gray-600">Google</p>
         </div>
-        <div className="flex flex-row items-center justify-center border-2 w-full sm:w-[380px] h-[45px] rounded-xl bg-gray-200 cursor-pointer">
+        <div className="flex flex-row items-center justify-center border-2 w-full sm:w-[380px] h-[45px] rounded-xl bg-sky-50 cursor-pointer">
           <img src={fb} alt="" className="w-[30px] h-[30px] mr-1" />
           <p className="md:flex hidden text-gray-600">Sign up with Facebook</p>
           <p className="md:hidden text-gray-600">Facebook</p>

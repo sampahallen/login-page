@@ -94,12 +94,12 @@ const Login = () => {
       </div>
 
       <div className="flex md:flex-col flex-row justify-center items-center gap-6">
-        <div className="flex flex-row items-center justify-center border-2 w-full sm:w-[380px] h-[45px] rounded-xl bg-gray-200 cursor-pointer">
+        <div className="flex flex-row items-center justify-center border-2 w-full sm:w-[380px] h-[45px] rounded-xl bg-sky-50 cursor-pointer">
           <img src={google} alt="" className="w-[30px] h-[30px] mr-1" />
           <p className="text-gray-600 md:flex hidden">Sign in with Google</p>
           <p className="text-gray-600 md:hidden">Google</p>
         </div>
-        <div className="flex flex-row items-center justify-center border-2 w-full sm:w-[380px] h-[45px] rounded-xl bg-gray-200 cursor-pointer">
+        <div className="flex flex-row items-center justify-center border-2 w-full sm:w-[380px] h-[45px] rounded-xl bg-sky-50 cursor-pointer">
           <img src={fb} alt="" className="w-[30px] h-[30px] mr-1" />
           <p className="md:flex hidden text-gray-600">Sign in  with Facebook</p>
           <p className="text-gray-600 md:hidden">Facebook</p>
