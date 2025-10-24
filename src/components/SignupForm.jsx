@@ -10,7 +10,7 @@ const Signup = () => {
     navigate("/home");
   };
   return (
-    <div className="flex flex-col sm:items-center sm:justify-center sm:p-28 sm:min-w-[500px]">
+    <div className="flex flex-col sm:items-center sm:justify-center md:pt-20 lg:pt-28 sm:min-w-[500px]">
       <div className="flex flex-col items-start justify-start sm:min-w-[380px]">
         <h1 className="text-[20px] sm:text-[30px] font-roboto font-semibold mb-2">
           Welcome👋
@@ -97,7 +97,7 @@ const Signup = () => {
         </Link>
       </p>
 
-      <p className="text-gray-400 mt-9 text-center mb-5 max-sm:text-[12px]">
+      <p className="text-gray-400 mt-9 md:mt-36 text-center max-sm:mb-5 max-sm:text-[12px]">
         ©2023 ALL RIGHT RESERVED
       </p>
     </div>

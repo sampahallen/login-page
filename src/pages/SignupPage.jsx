@@ -15,7 +15,7 @@ const SignupPage = () => {
         <img
           src={flowers}
           alt="Floral artwork"
-          className="w-full h-[200px] md:h-[400px] max-sm:mb-3 lg:h-[800px] object-cover rounded-3xl py-2 px-2 sm:py-2 sm:px-2"
+          className="w-full h-[200px] md:h-[400px] max-sm:mb-3 lg:h-[900px] object-cover rounded-3xl py-2 px-2 sm:py-2 sm:px-2"
         />
       </div>
     </div>
