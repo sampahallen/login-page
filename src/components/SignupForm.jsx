@@ -10,7 +10,7 @@ const Signup = () => {
     navigate("/home");
   };
   return (
-    <div className="flex flex-col sm:items-center sm:justify-center md:pt-20 lg:pt-28 sm:min-w-[500px]">
+    <div className="flex flex-col sm:items-center sm:justify-center md:pt-20 lg:pt-24 sm:min-w-[500px]">
       <div className="flex flex-col items-start justify-start sm:min-w-[380px]">
         <h1 className="text-[20px] sm:text-[30px] font-roboto font-semibold mb-2">
           Welcome <span className="sm:text-[34px]">👋</span>
@@ -65,8 +65,8 @@ const Signup = () => {
         </button>
       </form>
 
-<div className="flex justify-center w-full mb-8">
-        <div className="flex flex-row items-center justify-center mt-9 text-center">
+<div className="flex justify-center w-full mb-3">
+        <div className="flex flex-row items-center justify-center mt-5 text-center">
           <hr className="border-t-2 min-w-[80px] sm:min-w-[150px]  border-gray-300" />
           <div>
             <p className="mx-3 hidden md:block text-gray-600">Or</p>
@@ -78,7 +78,7 @@ const Signup = () => {
         </div>
       </div>
 
-      <div className="flex md:flex-col flex-row justify-center items-center gap-6">
+      <div className="flex md:flex-col flex-row justify-center items-center gap-3">
         <div className="flex flex-row items-center justify-center w-full sm:w-[380px] h-[45px] rounded-xl bg-sky-50 cursor-pointer">
           <img src={google} alt="" className="w-[40px] h-[40px] mr-1" />
           <p className="md:flex hidden text-gray-600">Sign up with Google</p>
@@ -97,7 +97,7 @@ const Signup = () => {
         </Link>
       </p>
 
-      <p className="text-gray-400 mt-9 md:mt-36 text-center max-sm:mb-5 max-sm:text-[12px]">
+      <p className="text-gray-400 mt-9 md:mt-12 text-center max-sm:mb-5 max-sm:text-[12px]">
         ©2023 ALL RIGHT RESERVED
       </p>
     </div>

@@ -15,7 +15,7 @@ const LoginPage = () => {
         <img
           src={flowers}
           alt="Floral artwork"
-          className="w-full h-[200px] md:h-[300px] max-sm:mb-3 lg:h-[900px] object-cover lg:object-cover rounded-3xl py-4 px-5 sm:py-2 sm:px-2"
+          className="w-full h-[200px] md:h-[300px] max-sm:mb-3 lg:h-[740px] object-cover lg:object-cover rounded-3xl py-4 px-5 sm:py-2 sm:px-2"
         />
       </div>
     </div>
