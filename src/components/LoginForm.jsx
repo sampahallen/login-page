@@ -24,7 +24,7 @@ const Login = () => {
     <div className="flex flex-col sm:items-center sm:justify-center md:pt-20 lg:pt-28 sm:min-w-[500px]">
       <div className="flex flex-col items-start justify-start sm:min-w-[380px]">
         <h1 className="text-[20px] sm:text-[30px] font-roboto font-semibold mb-2">
-          Welcome Back👋
+          Welcome Back <span className="sm:text-[34px]">👋</span>
         </h1>
         <p className="md:text-[14px] text-[12px] tracking-wide font-roboto">
           Today is a new day. It's your day. You shape it <br /> Sign in to
@@ -94,19 +94,19 @@ const Login = () => {
       </div>
 
       <div className="flex md:flex-col flex-row justify-center items-center gap-6">
-        <div className="flex flex-row items-center justify-center border-2 w-full sm:w-[380px] h-[45px] rounded-xl bg-sky-50 cursor-pointer">
-          <img src={google} alt="" className="w-[30px] h-[30px] mr-1" />
+        <div className="flex flex-row items-center justify-center w-full sm:w-[380px] h-[45px] rounded-xl bg-sky-50 cursor-pointer">
+          <img src={google} alt="" className="w-[40px] h-[40px] mr-1" />
           <p className="text-gray-600 md:flex hidden">Sign in with Google</p>
           <p className="text-gray-600 md:hidden">Google</p>
         </div>
-        <div className="flex flex-row items-center justify-center border-2 w-full sm:w-[380px] h-[45px] rounded-xl bg-sky-50 cursor-pointer">
+        <div className="flex flex-row items-center justify-center w-full sm:w-[380px] h-[45px] rounded-xl bg-sky-50 cursor-pointer">
           <img src={fb} alt="" className="w-[30px] h-[30px] mr-1" />
           <p className="md:flex hidden text-gray-600">Sign in  with Facebook</p>
           <p className="text-gray-600 md:hidden">Facebook</p>
         </div>
       </div>
       <p className="text-[14px] text-center mt-6">
-        Don't have an account?{" "}
+        Don't you have an account?{" "}
         <Link to="/signup" className="text-[#1E4AE9]">
           Sign up
         </Link>
