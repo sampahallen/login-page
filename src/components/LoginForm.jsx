@@ -46,7 +46,7 @@ const Login = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Example@email.com"
-            className="border-2 focus:outline-none sm:w-[380px] sm:h-[45px] w-full rounded-xl p-2 border-gray-300 bg-sky-50"
+            className="border-2 focus:outline-none sm:w-[380px] sm:h-[45px] w-full rounded-xl p-3 border-gray-300 bg-sky-50"
           />
         </div>
 
@@ -60,7 +60,7 @@ const Login = () => {
             onChange={(e) => setPassword(e.target.value)}
             placeholder="At least 8 characters"
             minLength={"8"}
-            className="border-2 focus:outline-none sm:w-[380px] sm:h-[45px] border-gray-300 rounded-xl p-2 bg-sky-50 w-full"
+            className="border-2 focus:outline-none sm:w-[380px] sm:h-[45px] border-gray-300 rounded-xl p-3 bg-sky-50 w-full"
             required
           />
         </div>
